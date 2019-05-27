@@ -6,3 +6,15 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+@import "quotes";
+
+.group-left,
+.group-right {
+  > div {
+    margin: 1em;
+  }
+  div:first-child {
+    margin-top: 0;
+  }
+}
