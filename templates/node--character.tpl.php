@@ -109,10 +109,14 @@
     $links = render($content['links']);
     if ($field_tags || $links):
   ?>
-   <footer>
-     <?php print $field_tags; ?>
-     <?php print $links; ?>
-  </footer>
+
+  <?php if ($view_mode !== 'teaser'): ?>
+    <footer>
+      <?php print $field_tags; ?>
+      <?php print $links; ?>
+    </footer>
+  <?php endif; ?>
+
     <?php endif; ?>
   <?php print render($content['comments']); ?>
 </article>
