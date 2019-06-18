@@ -6485,6 +6485,29 @@ a .glyphicon.icon-after {
 .field-name-field-pullquote div:last-child {
   margin-bottom: 0; }
 
+article.node-character.node-teaser {
+  padding: 1em;
+  background: #f9d7ed;
+  margin-bottom: 1em; }
+  article.node-character.node-teaser header {
+    border-bottom: 2px solid #24231B;
+    margin-bottom: 1em; }
+    article.node-character.node-teaser header :first-child {
+      color: #24231B; }
+
+.field-name-field-characters :first-child a,
+.field-name-field-characters :first-child {
+  font-size: large;
+  color: #24231B; }
+
+.node-character.node-teaser h2 {
+  font-size: large;
+  color: #3717b1;
+  border-bottom: 2px; }
+
+.node-character.node-teaser .field-label:first-child {
+  font-size: large; }
+
 .group-left > div,
 .group-right > div {
   margin: 1em; }

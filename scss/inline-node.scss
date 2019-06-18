@@ -1,0 +1,38 @@
+@mixin inline-node {
+  padding: 1em;
+  background: #f9d7ed;
+  margin-bottom: 1em;
+}
+
+article.node-character.node-teaser {
+  @include inline-node;
+  header {
+    border-bottom: 2px solid #24231B;
+    margin-bottom: 1em;
+    :first-child {
+      color: #24231B;
+    }
+  }
+}
+
+.field-name-field-characters {
+  :first-child a,
+  :first-child {
+    font-size: large;
+    color: #24231B;
+  }
+}
+
+
+.node-character.node-teaser {
+  h2 {
+    font-size: large;
+    color: #3717b1;
+    border-bottom: 2px;
+  }
+  .field-label:first-child {
+    font-size: large;
+
+  }
+}
+
