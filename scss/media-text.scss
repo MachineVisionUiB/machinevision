@@ -1,0 +1,13 @@
+.grid-container {
+  display: grid;
+  .item {
+    display: flex;
+    grid-column: 2 / span 1;
+    align-items: flex-end;
+  }
+  img.item {
+    width: 140px;
+    grid-column: 1 / span 1;
+    padding-right: 1em;
+  }
+}

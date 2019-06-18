@@ -6508,6 +6508,17 @@ article.node-character.node-teaser {
 .node-character.node-teaser .field-label:first-child {
   font-size: large; }
 
+.grid-container {
+  display: grid; }
+  .grid-container .item {
+    display: flex;
+    grid-column: 2 / span 1;
+    align-items: flex-end; }
+  .grid-container img.item {
+    width: 140px;
+    grid-column: 1 / span 1;
+    padding-right: 1em; }
+
 .group-left > div,
 .group-right > div {
   margin: 1em; }
