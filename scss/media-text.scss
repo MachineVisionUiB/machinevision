@@ -11,3 +11,16 @@
     padding-right: 1em;
   }
 }
+
+.node.view-mode-full img,
+.file-video iframe {
+  width: 100%;
+}
+
+.node.view-mode-full {
+  .field-type-text-long .field-item,
+  .field-type-file .field-item,
+  .field-type-image .field-item {
+    margin: 1em 0;
+  }
+}
