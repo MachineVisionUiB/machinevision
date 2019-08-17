@@ -51,7 +51,14 @@
   }
   margin-bottom: $navbar-margin-bottom;
 }
+
 .field-name-field-intro-text {
-  font-size: $font-size-h1;
-  text-align: center;
+  font-size: $font-size-large;
+  @media #{$tablet} {
+    font-size: $font-size-h2;
+  }
+  @media #{$normal} {
+    font-size: $font-size-h1;
+  }
+  text-align: justify;
 }

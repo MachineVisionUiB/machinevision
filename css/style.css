@@ -6553,8 +6553,14 @@ article.node-character.node-teaser {
     margin: 0 auto; }
 
 .field-name-field-intro-text {
-  font-size: 36px;
-  text-align: center; }
+  font-size: 18px;
+  text-align: justify; }
+  @media screen and (min-width: 768px) {
+    .field-name-field-intro-text {
+      font-size: 30px; } }
+  @media screen and (min-width: 992px) {
+    .field-name-field-intro-text {
+      font-size: 36px; } }
 
 .group-left > div,
 .group-right > div {
