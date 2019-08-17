@@ -4,6 +4,9 @@ $normal:              "screen and (min-width: #{$screen-md-min})";
 $wide:                "screen and (min-width: #{$screen-lg-min})";
 $grid-breakpoint:     "screen and (min-width: #{$grid-float-breakpoint})";
 
+$navbar-default-link-hover-color: #2a1d75;
+$navbar-default-link-active-color: #2a1d75;
+
 // Drop shadows.
 @mixin box-shadow($shadow) {
   -webkit-box-shadow: $shadow;
