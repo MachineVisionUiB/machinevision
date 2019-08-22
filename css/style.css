@@ -6540,7 +6540,7 @@ article.node-character.node-teaser {
   #header-wrapper header {
     border: none; }
 
-.field-type-image {
+.node-type-landing-page .field-type-image {
   width: 100vw;
   position: relative;
   left: 50%;
@@ -6549,7 +6549,7 @@ article.node-character.node-teaser {
   margin-right: -50vw;
   background-color: #2a1d75;
   margin-bottom: 20px; }
-  .field-type-image img {
+  .node-type-landing-page .field-type-image img {
     margin: 0 auto; }
 
 .field-name-field-intro-text {
