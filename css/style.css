@@ -6478,6 +6478,50 @@ article.node-character.node-teaser {
   .field-name-field-intro-text {
     font-size: 36px; } }
 
+article.node-character.node-teaser {
+  padding: 1em;
+  background: #f9d7ed;
+  margin-bottom: 1em; }
+  article.node-character.node-teaser header {
+    border-bottom: 2px solid #24231B;
+    margin-bottom: 1em; }
+    article.node-character.node-teaser header :first-child {
+      color: #24231B; }
+
+.field-name-field-characters :first-child a,
+.field-name-field-characters :first-child {
+  font-size: large;
+  color: #24231B; }
+
+.node-character.node-teaser h2 {
+  font-size: large;
+  color: #3717b1;
+  border-bottom: 2px; }
+
+.node-character.node-teaser .field-label:first-child {
+  font-size: large; }
+
+.group-left .paragraphs-items,
+.group-right .paragraphs-items {
+  margin: 0;
+  padding: 0; }
+
+.paragraphs-items {
+  border: 1px solid #ddd; }
+
+.field-name-field-actions > .field-label {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0.5em 1em;
+  margin-bottom: 1em; }
+
+.entity-paragraphs-item {
+  padding: 0 1em 0 1em; }
+  .entity-paragraphs-item .content .field {
+    margin: 1em 0; }
+
 .group-left > div,
 .group-right > div {
   margin: 1em; }
