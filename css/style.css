@@ -6403,7 +6403,7 @@ article.node-character.node-teaser {
 
 .group-left .paragraphs-items,
 .group-right .paragraphs-items {
-  margin: 0;
+  margin: 0 0 1em 0;
   padding: 0; }
 
 .paragraphs-items {
@@ -6503,7 +6503,7 @@ article.node-character.node-teaser {
 
 .group-left .paragraphs-items,
 .group-right .paragraphs-items {
-  margin: 0;
+  margin: 0 0 1em 0;
   padding: 0; }
 
 .paragraphs-items {
